@@ -82,3 +82,19 @@
 .frdList li:hover {
   text-decoration: underline;
 }
+
+#flist {
+  margin: 15px 0px;
+}
+
+#flist button {
+  margin: 0px 15px;
+}
+
+.fr {
+  vertical-align: top;
+  background: #f00;
+  padding: 2px 7px;
+  border-radius: 15px;
+  color: #fff;
+}

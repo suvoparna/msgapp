@@ -7,6 +7,9 @@ import Main from "./components/main";
 import Reg from "./components/reg";
 
 function App() {
+  localStorage.removeItem("email");
+  localStorage.removeItem("login");
+
   return (
     <div className="main">
       <Router>
